@@ -1,0 +1,49 @@
+@media screen and (max-width: 728px) {
+	.book-action {
+		flex-direction: column;
+	}
+
+	.read-btn {
+		width: 100%;
+		margin: 0.25rem auto;
+	}
+
+	.edit-btn {
+		width: 100%;
+		margin: 0.25rem auto;
+	}
+
+	.delete-btn {
+		width: 100%;
+		margin: 0.25rem auto;
+	}
+}
+
+@media screen and (max-width: 678px) {
+	main {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.add-book-wrapper,
+	.bookshelf-card {
+		min-width: 328px;
+	}
+}
+
+@media screen and (max-width: 410px) {
+	.bookshelf-card,
+	.add-book-wrapper {
+		max-width: 260px;
+		min-width: 260px;
+	}
+
+	.search-group {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.search-button {
+		margin: 0.5rem 0;
+	}
+}
